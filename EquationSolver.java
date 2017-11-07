@@ -39,4 +39,9 @@ public class EquationSolver
 		//If it takes too long, just say no answer
 		//trycatch Arithmetic exception
 		//scan.close();
+	
+		public static void main(String[] args) {
+		EquationReader ER = new EquationReader("X+7=3");
+		char[] equationArray = ER.equationConverter();
+	}
 }
